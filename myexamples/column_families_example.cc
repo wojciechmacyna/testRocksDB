@@ -87,7 +87,7 @@ int main() {
 
 std::cout << "Key1 handle0: " << value0 << "Key1 handle1: " << value1 << std::endl;*/
 
- for (int i = 0; i < 1000000; i++) {
+ for (int i = 0; i < 100000; i++) {
         WriteBatch batch;
         key = "Key" + std::to_string(i);
         val = "Value0h" + std::to_string(i);
